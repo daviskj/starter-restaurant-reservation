@@ -1,9 +1,24 @@
 .side-bar {
-  background-color: #393a44;
+  background-color: #212a3a;
   min-width: 200px;
   height: auto;
 }
 
 body {
-  background-color: rgb(197, 192, 192);
+  background-color: rgb(185, 185, 185);
+  
+}
+
+h1, .dash {
+  font-family: Montserrat;
+
+}
+
+.mb-0 {
+  font-family: Montserrat;
+}
+
+h1 {
+  margin-bottom: 20px;
+  margin-top: 10px;
 }

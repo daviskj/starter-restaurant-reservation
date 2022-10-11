@@ -50,9 +50,9 @@ function Dashboard({ date, reservations, reservationsError, tables, tablesError,
 
 	return (
 		<main>
-		<h1>Dashboard</h1>
+		<h1 className="dash">Dashboard</h1>
 
-		<h4 className="mb-0">Reservations for {date}</h4>
+		<h4 className="mb-0">Reservations for <b>{date}</b></h4>
 
 				<button className="btn btn-secondary m-1" type="button" name="previous" onClick={handleClick}>Previous</button>
 				<button className="btn btn-primary m-1" type="button" name="today" onClick={handleClick}>Today</button>
