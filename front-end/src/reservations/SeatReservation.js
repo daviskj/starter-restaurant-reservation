@@ -87,7 +87,7 @@ export default function SeatReservation({ tables, loadDashboard }) {
 
 		if (foundErrors.length === 0) {
 			return "Please select a table"
-		}
+		} 
 		return foundErrors
 	}
 

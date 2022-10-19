@@ -8,10 +8,10 @@ require('dotenv').config();
 const path = require("path");
 
 const {
-  DATABASE_URL = "postgresql://postgres@localhost/postgres",
-  DATABASE_URL_DEVELOPMENT = "postgresql://postgres@localhost/postgres",
-  DATABASE_URL_TEST = "postgresql://postgres@localhost/postgres",
-  DATABASE_URL_PREVIEW = "postgresql://postgres@localhost/postgres",
+  DATABASE_URL = "postgres://luxzaqmk:yMw2hJfa0S4A30Rr7FJS5zYp1I3n4io-@jelani.db.elephantsql.com/luxzaqmk",
+  DATABASE_URL_DEVELOPMENT = "postgres://luxzaqmk:yMw2hJfa0S4A30Rr7FJS5zYp1I3n4io-@jelani.db.elephantsql.com/luxzaqmk",
+  DATABASE_URL_TEST = "postgres://luxzaqmk:yMw2hJfa0S4A30Rr7FJS5zYp1I3n4io-@jelani.db.elephantsql.com/luxzaqmk",
+  DATABASE_URL_PREVIEW = "postgres://luxzaqmk:yMw2hJfa0S4A30Rr7FJS5zYp1I3n4io-@jelani.db.elephantsql.com/luxzaqmk",
   DEBUG,
 } = process.env;
 
