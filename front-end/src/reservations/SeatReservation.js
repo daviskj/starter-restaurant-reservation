@@ -102,7 +102,7 @@ export default function SeatReservation({ tables, loadDashboard }) {
 
 	return (
 		<form className="form-select">
-			{ {errorsJSX}}
+			{ errorsJSX}
 			<ErrorAlert error={apiError} />
 			<ErrorAlert error={reservationsError} />
 
