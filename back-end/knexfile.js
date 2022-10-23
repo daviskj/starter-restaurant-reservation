@@ -8,10 +8,10 @@ require('dotenv').config();
 const path = require("path");
 
 const {
-  DATABASE_URL = "postgres://ovjgoebt:yiJUguFHTd8hxjPRBFp1vnHwo5pUNNP2@jelani.db.elephantsql.com/ovjgoebt",
-  DATABASE_URL_DEVELOPMENT = "postgres://ovjgoebt:yiJUguFHTd8hxjPRBFp1vnHwo5pUNNP2@jelani.db.elephantsql.com/ovjgoebt",
-  DATABASE_URL_TEST = "postgres://ovjgoebt:yiJUguFHTd8hxjPRBFp1vnHwo5pUNNP2@jelani.db.elephantsql.com/ovjgoebt",
-  DATABASE_URL_PREVIEW = "postgres://ovjgoebt:yiJUguFHTd8hxjPRBFp1vnHwo5pUNNP2@jelani.db.elephantsql.com/ovjgoebt",
+  DATABASE_URL = "postgres://sluhbime:B9e-ObDLdnrO19fynEooGtxL8G8USj1p@jelani.db.elephantsql.com/sluhbime",
+  DATABASE_URL_DEVELOPMENT = "postgres://sluhbime:B9e-ObDLdnrO19fynEooGtxL8G8USj1p@jelani.db.elephantsql.com/sluhbime",
+  DATABASE_URL_TEST = "postgres://sluhbime:B9e-ObDLdnrO19fynEooGtxL8G8USj1p@jelani.db.elephantsql.com/sluhbime",
+  DATABASE_URL_PREVIEW = "postgres://sluhbime:B9e-ObDLdnrO19fynEooGtxL8G8USj1p@jelani.db.elephantsql.com/sluhbime",
   DEBUG,
 } = process.env;
 
